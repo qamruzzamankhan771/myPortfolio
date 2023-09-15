@@ -1,0 +1,40 @@
+body {
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Put the logo and navigation items at opposite ends */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #282828;
+}
+
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Align navigation items to the right */
+}
+
+.navbar-list li {
+  margin: 0;
+  padding: 0 40px; /* Add horizontal padding between items */
+}
+
+.navbar-list a {
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-list a:hover {
+  background-color: #555;
+}
+
+.logo img {
+  max-width: 100px; /* Adjust the maximum width of your logo */
+  max-height: 40px;
+}
